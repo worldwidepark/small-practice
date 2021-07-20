@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+  }
+body{ 
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.bigpage{
+  width: 260px;
+  height: 510px;
+  padding: 18px 15px;
+  border: 1px solid orange;
+  border-bottom: 3px solid orange;
+  border-right: 3px solid orange;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 5px;
+  }
+
+  .nowplay{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 17px 0;
+  }
+  .nowplay__pic img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    box-shadow: 6px 3px 10px -10px orange ;
+  }
+
+.nowplay__title{
+  margin-top: 15px;
+font-size: 20px ;
+font-weight: 800;
+font-family: fantasy;
+}
+
+.nowplay__explain{
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.buttons{
+  display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ font-size: 10px;
+ margin-top: 10px;
+ margin-bottom: 18px;
+}
+
+.button:first-child{
+
+  padding: 10px 20px; 
+  border:1px solid ;
+  background-color: darkblue;
+  color: white;
+  border-radius: 30px;
+}
+
+
+.button:last-child {
+  padding: 10px 5px; 
+  border-radius: 30px;
+  background-color: white;
+  
+  box-shadow: 3px 5px 50px wheat;
+
+}
+.button__number {
+  opacity: 0.5;
+}
+
+.playlist{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.playlist__each{
+  display: flex;
+  flex-direction: row;
+  margin: 8px 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px -8px darkkhaki;
+
+}
+
+.playlist__each__pic img{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  
+}
+.playlist__each__explain{
+  margin-left: -60px;
+}
+
+.playlist__each__explain-up{
+ font-size: 8px;
+ opacity: 0.5;
+}
+.playlist__each__explain-down{
+  font-size: 13px;
+}
+
+
+.playlist__each__pic{
+  position: relative;
+}
+
+.playlist__playbutton__icon {
+  
+  position: absolute;
+ left: 7.5px;
+ top: 7.5px;
+ 
+}
+
+.playlist__each__button{
+  margin-right: 5px;
+}
+
+.playbutton{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: rgba(255, 153, 0, 0.685);
+  border-radius: 25px;
+  border: 1px solid salmon;
+
+}
+.playbutton__explain{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+
+}
+
+
+.playbutton__explain span:first-child{
+font-size: 10px;
+color: black;
+opacity: 0.8;
+}
+.playbutton__explain span:last-child{
+  font-size: 20px;
+  color: black;
+  margin-top: 5px;
+}
+.playbutton__icons{
+display: flex;
+width: 80px;
+justify-content: space-between;
+margin-right: 5px;
+border: 1px solid salmon;
+padding: 3px 0;
+}
