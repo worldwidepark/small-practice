@@ -99,10 +99,11 @@ font-family: fantasy;
   display: flex;
   flex-direction: row;
   margin: 8px 10px;
-  justify-content: space-between;
+  position: relative;
   align-items: center;
   border-radius: 10px;
   box-shadow: 3px 3px 10px -8px darkkhaki;
+  width: 100%;
 
 }
 
@@ -113,20 +114,28 @@ font-family: fantasy;
   
 }
 .playlist__each__explain{
-  margin-left: -60px;
+  left: 40px;
+  position: absolute;
+  width: 33%;
+ 
 }
 
 .playlist__each__explain-up{
  font-size: 8px;
  opacity: 0.5;
+ 
 }
 .playlist__each__explain-down{
   font-size: 13px;
+  font-family: fantasy;
+ 
 }
 
 
 .playlist__each__pic{
   position: relative;
+  width: 33%;
+
 }
 
 .playlist__playbutton__icon {
@@ -138,8 +147,13 @@ font-family: fantasy;
 }
 
 .playlist__each__button{
-  margin-right: 5px;
+  right: 5px;
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 53px;
 }
+
 
 .playbutton{
   display: flex;
@@ -169,6 +183,8 @@ opacity: 0.8;
   font-size: 20px;
   color: black;
   margin-top: 5px;
+  font-family:fantasy;
+  margin-left: 15px;
 }
 .playbutton__icons{
 display: flex;
